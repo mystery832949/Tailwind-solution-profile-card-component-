@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+ @layer utilities {
+  .bg-position-custom {
+    background-position: -2vw -40vh, 50vw 50vh;
+  }
+}
